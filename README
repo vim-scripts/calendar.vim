@@ -1,0 +1,6 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=18
+
+Requires the Unix command program 'cal' or its equivalent.  Really only provides a way of pulling up a calendar into a buffer in Vim.  The script opens a buffer if one doesn't exist.  The buffer is set up to be readonly and not modified (or modifiable if 6.0 or better).  Should work for both 5.7 and 6.0x.
+
+Usage is:  Cal 2001   | " for current year calendar
+              Cal 4 2001 | " for April of 2001 month  calendar
